@@ -19,7 +19,7 @@ struct AppData
 {
 	float3 vertex	: POSITION;
 	float3 normal	: NORMAL;
-	float3 tangent	: TANGENT;
+	float4 tangent	: TANGENT;
 	float4 color	: COLOR;
 	float2 texCoord : TEXCOORD;
 };
@@ -48,6 +48,6 @@ v2f vert(AppData v)
 
 float4 frag(v2f i) : SV_TARGET
 {
-	return albedo.Sample(LinearClampSampler, i.texCoord);// * dot(i.normal, float3(0,0.7074,0.7074));
+	return albedo.Sample(LinearClampSampler, i.texCoord)* dot(i.normal, float3(0,0.7074,0.7074)) * 2;
 }
 

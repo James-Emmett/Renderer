@@ -1,0 +1,9 @@
+[Info]:  Begin Engine Initialise
+[Info]:  Creating Window
+[Info]:  Window Registered
+[Info]:  Raw Input Registered
+[Info]:  Begin Graphics Initialise
+[Info]:  End Graphics Initalise
+[Warning]:  [Mesh.cpp]  [Line: 594]: [Message: Cannot open file [Content\MaterialBall\TestCube.obj]
+ ]
+[Error]:  [Mesh.cpp]  [Line: 599]: [Message: 0 && "Failed To Load Mesh." ]

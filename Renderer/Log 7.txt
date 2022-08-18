@@ -1,0 +1,13 @@
+[Info]:  Begin Engine Initialise
+[Info]:  Creating Window
+[Info]:  Window Registered
+[Info]:  Raw Input Registered
+[Info]:  Begin Graphics Initialise
+[Info]:  End Graphics Initalise
+[Warning]:  [Mesh.cpp]  [Line: 589]: [Message: Material file [ export3dcoat.mtl ] not found in a path : 
+Failed to load material file(s). Use default material.
+material [ 'lambert3SG' ] not found in .mtl
+ ]
+[Info]:  Game Data Initialised
+[Info]:  Engine Initialised Succesfully
+[Info]:  Engine Shutting Down
