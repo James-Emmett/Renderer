@@ -197,7 +197,7 @@
     <ClInclude Include="Include\System\StringUtil.h" />
     <ClInclude Include="Include\System\Timer.h" />
     <ClInclude Include="Include\System\Types.h" />
-    <ClInclude Include="Include\System\Win32\Window_Win32.h" />
+    <ClInclude Include="Include\System\Windows\Window_Win32.h" />
     <ClInclude Include="Include\System\Window.h" />
     <ClInclude Include="Include\System\WindowEvent.h" />
     <ClInclude Include="Include\World\Camera.h" />
@@ -256,7 +256,7 @@
     <ClCompile Include="Source\System\Logger.cpp" />
     <ClCompile Include="Source\System\StringUtil.cpp" />
     <ClCompile Include="Source\System\Time.cpp" />
-    <ClCompile Include="Source\System\Win32\Window_Win32.cpp" />
+    <ClCompile Include="Source\System\Windows\Window_Win32.cpp" />
     <ClCompile Include="Source\World\Camera.cpp" />
     <ClCompile Include="Source\World\Component\Transform.cpp" />
     <ClCompile Include="Source\World\Entity.cpp" />

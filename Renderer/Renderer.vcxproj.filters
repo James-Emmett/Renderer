@@ -45,7 +45,7 @@
     <ClInclude Include="Include\System\Types.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Include\System\Win32\Window_Win32.h">
+    <ClInclude Include="Include\System\Windows\Window_Win32.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Include\System\Assert.h">
@@ -266,7 +266,7 @@
     <ClCompile Include="Source\Math\Vector4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source\System\Win32\Window_Win32.cpp">
+    <ClCompile Include="Source\System\Windows\Window_Win32.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Source\System\Assert.cpp">
