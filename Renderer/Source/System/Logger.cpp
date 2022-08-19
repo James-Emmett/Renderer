@@ -83,13 +83,13 @@ void LogHandler::FlushAll()
 
 FileLogger::FileLogger()
 {
-	std::string file = "Log.txt";
+	std::string file = "Log.log";
 	int count = 0;
 	while (Path::FileExists(file))
 	{
 		++count;
 		file = "Log " + std::to_string(count);
-		file += ".txt";
+		file += ".log";
 	}
 
 	m_FileName = file;

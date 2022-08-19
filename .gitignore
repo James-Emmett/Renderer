@@ -363,3 +363,4 @@ MigrationBackup/
 FodyWeavers.xsd
 
 !Content/*.obj
+*.log
